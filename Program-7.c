@@ -5,7 +5,8 @@
 #include<stdio.h>
 	int main()
 	{
-	  int a[10],i,n;
+	  int a[10];
+    int i,n;
 	  printf("Enter size of the array and the array elements");
 	  scanf("%d",&n);
 	  
