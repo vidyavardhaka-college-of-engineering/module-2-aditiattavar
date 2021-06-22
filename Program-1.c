@@ -2,10 +2,6 @@
 //INPUT - 452
 //OUTPUT -3
 
-#include <stdio.h>
-
-int main()
-{
    int num;
     int count = 0;
 
@@ -21,10 +17,10 @@ int main()
 
 
         /* Remove last digit of 'num' */
-        num = num/ 10;
-    } while( num != 0);
+        num /= 10;
+    } while( num!= 0);
 
-    printf(" -%d",count );
+    printf("Total digits: %d",count );
 
     return 0;
 }
