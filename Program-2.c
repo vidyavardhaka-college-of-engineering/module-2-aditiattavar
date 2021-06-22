@@ -3,6 +3,8 @@
 //OUTPUT - 1 2 3
 
 
+
+
 #include<stdio.h>
 void main()
 {
@@ -10,7 +12,7 @@ void main()
 	printf("Enter upper limit : ");
 	scanf("%d",&n);
 	printf("The natural numbers are ");
-	for(i=1;i<=;i++)
-		printf(" ",i);
+	for(i=1;i<=n;i++)
+		printf("%d ",i);
 	//Fill the missing code here
  }
