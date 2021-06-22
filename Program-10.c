@@ -5,12 +5,12 @@
 int main()
 {
     int arr[100], n, i, small, large;
-    printf("Enter how many values you want to read and values");
+    //printf("Enter how many values you want to read and values");
     scanf("%d", &n);
 
     for (i = 0; i < n; i++)
     {
-        printf("Enter the value of a[%d]:  ",i);
+        //printf("Enter the value of a[%d]:  ",i);
         scanf("%d", &arr[i]);
     }
 
@@ -30,7 +30,8 @@ int main()
         }
     }
 
-    printf("\nThe largest and smallest elements are %d and %d", large,small);
+    printf("The largest and smallest elements are %d and %d", large,small);
     
     return 0;
+}
 }
